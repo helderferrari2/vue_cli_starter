@@ -1,0 +1,21 @@
+html,
+body,
+#app {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Lato, Helvetica, Arial, sans-serif;
+}
+
+#app {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  box-sizing: border-box;
+}
