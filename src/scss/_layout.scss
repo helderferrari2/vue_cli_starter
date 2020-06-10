@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.main__header {
+  width: 100%;
+}
+
+.main__body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.main__body__content {
+  flex-grow: 1;
+}
+
+.main__body__footer {
+  width: 100%;
+}
